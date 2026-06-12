@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: PhyloMarker Prioritizer
+authors:
+  - family-names: Pizarro
+    given-names: David
+message: If you use this software, please cite the associated conference contribution or this repository.
+version: 0.1.0
+license: MIT

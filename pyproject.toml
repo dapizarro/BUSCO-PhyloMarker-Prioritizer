@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phylo-marker-prioritizer"
+version = "0.1.0"
+description = "BUSCO-derived prioritization of phylogenetic markers"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "David Pizarro"}]
+dependencies = ["pandas", "numpy", "scikit-learn", "matplotlib", "biopython"]

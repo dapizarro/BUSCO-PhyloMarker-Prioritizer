@@ -1,0 +1,15 @@
+name: phylo-marker-prioritizer
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python>=3.10
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - mafft
+  - trimal
+  - iqtree
+  - biopython
+  - pytest

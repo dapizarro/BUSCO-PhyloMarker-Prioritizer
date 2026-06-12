@@ -1,0 +1,24 @@
+# Minimal configuration for a BUSCO-derived phylogenetic marker prioritization run.
+project_name: example_phylo_marker_prioritization
+busco_runs_dir: data/busco_runs
+results_dir: results
+sequence_mode: single_copy
+sequence_ext: .faa
+alignment:
+  mafft_mode: auto
+  threads_per_gene: 1
+  trimal_gt: 0.8
+  trimal_cons: 60
+ranking:
+  metrics:
+    - occupancy
+    - VS_per_len
+    - PIS_per_len
+    - PIS_over_VS
+    - mean_entropy
+optimal_panel:
+  maxN: 300
+  minN: 10
+  edge_frac: 0.05
+panels:
+  sizes: [10, 25, 50, 100, 164, 200, 300, 500]
