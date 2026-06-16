@@ -14,7 +14,7 @@ This pipeline prioritizes loci using three complementary dimensions:
 2. **Phylogenetic informativeness**: genes with more variable and parsimony-informative sites are more likely to resolve relationships.
 3. **Alignment quality**: genes with excessive gaps or ambiguous regions can introduce noise and artefacts.
 
-The goal is not to find one universally best gene, but to create **ranked marker panels** such as Top25, Top50, Top100, Top164, Top200, or a data-driven optimum panel. These panels can then be tested by concatenation, gene-tree/species-tree inference, concordance analysis, or targeted bait design.
+The goal is not to find one universally best gene, but to create **ranked marker panels** such as Top25, Top50, Top100, Top200, or a data-driven optimum panel. These panels can then be tested by concatenation, gene-tree/species-tree inference, concordance analysis, or targeted bait design.
 
 ## Conceptual workflow
 
