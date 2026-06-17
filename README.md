@@ -190,7 +190,7 @@ iqtree2 -s results/panels/top100_supermatrix.fas \
 
 If using this workflow, cite the associated conference contribution:
 
-> Pizarro D., Vaiana A., Calzoni D., Singh G., Lumbsch T. & Divakar P.K. Which genes matter? Prioritizing phylogenetic signal in lichenized fungi.
+> Pizarro D., Vaiana A., Calzoni D., Singh G., Lumbsch T. & Divakar P.K. Which genes matter? Prioritizing phylogenetic signal in lichenized fungi. https://doi.org/10.5281/zenodo.20700693
 
 ## Repository structure
 
